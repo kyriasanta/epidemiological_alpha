@@ -17,3 +17,19 @@
 - **Thresholds** → Statistical signal triggers  
 - **Containment** → Risk management protocols
 - **Diagnosis** → Performance analysis and iteration
+
+## Project Structure
+
+epidemiological_alpha/
+├── 📁 data/              # Data storage
+│   ├── raw/             # Raw data files
+│   └── processed/       # Processed features
+├── 📁 notebooks/         # Jupyter notebooks for analysis
+├── 📁 src/              # Source code
+│   ├── data/            # Data collection modules
+│   ├── features/        # Feature engineering
+│   └── models/          # Trading models
+├── 📄 final_presentation.py  # Main project runner
+├── 📄 requirements.txt  # Python dependencies
+├── 📄 README.md         # Project documentation
+└── 📈 *.png             # Performance visualizations
